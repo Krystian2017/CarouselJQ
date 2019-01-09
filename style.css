@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#carousel {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  border: solid 5px black;
+  overflow: hidden;
+}
+
+ul {
+  width: 2000px;
+  padding-left: 0;
+}
+
+li {
+  width: 400px;
+  height: 300px;
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+}
+
+#button {
+  text-align: center;
+}
